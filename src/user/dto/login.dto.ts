@@ -2,12 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 import { IsString, MinLength, MaxLength, Matches, IsEmail } from 'class-validator';
 
-export class AuthCredentialsDto {
-    @IsString()
-    @MinLength(4)
-    @MaxLength(20)
-    username: string;
-
+export class LoginDto {
     @IsEmail()
     email: string;
 
