@@ -1,6 +1,6 @@
 import { Controller, Get, Query, UseGuards } from '@nestjs/common';
 import { MovieService } from './movie.service';
-import { GetUser } from 'src/user/get-user.decorator';
+import { GetUser } from 'src/common/get-user.decorator';
 import { User } from 'src/user/user.entity';
 import { AuthGuard } from '@nestjs/passport';
 

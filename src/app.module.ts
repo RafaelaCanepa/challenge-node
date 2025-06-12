@@ -8,7 +8,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './user/user.entity';
 import { UserRepository } from './user/user.repository';
 import { JwtModule } from '@nestjs/jwt';
-import { JwtStrategy } from './user/jwt-strategy';
+import { JwtStrategy } from './auth/strategies/jwt-strategy';
 import { MovieModule } from './movie/movie.module';
 import { ConfigModule } from '@nestjs/config';
 import { HttpModule } from '@nestjs/axios';
