@@ -25,7 +25,7 @@ import { HttpModule } from '@nestjs/axios';
       port: 5432,
       username: 'postgres',
       password: 'postgres',
-      database: 'challenge-movies',
+      database: 'challenge-rafa',
       entities: [User],
       synchronize: true,
     }), 
